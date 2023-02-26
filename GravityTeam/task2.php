@@ -16,7 +16,7 @@ $totalProbability = $teamAProbability + $teamBProbability + $drawProbability;
 
 $profitMargin = number_format(($totalProbability - 1) * 100, 2);
 
-echo "TeamA win probability: " . $teamAProbabilityPercentage . "%\n";
-echo "TeamB win probability: " . $teamBProbabilityPercentage . "%\n";
-echo "Draw probability: " . $drawProbabilityPercentage . "%\n";
-echo "Profit margin: " . $profitMargin . "%\n";
+echo "TeamA win probability: " . $teamAProbabilityPercentage . "%\n"; // result is 83.33%
+echo "TeamB win probability: " . $teamBProbabilityPercentage . "%\n"; // result is 15.63%
+echo "Draw probability: " . $drawProbabilityPercentage . "%\n"; // result is 5.21%
+echo "Profit margin: " . $profitMargin . "%\n"; // result is 4.17%
