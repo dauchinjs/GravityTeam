@@ -13,5 +13,5 @@ for ($i = $start; $i <= $end; $i++) {
     }
 }
 
-echo "The sum of all digits of all natural numbers between 0 and 10^12 is: " . $sum . "\n";
+echo "The sum of all digits of all natural numbers between 0 and 10^12 is: " . $sum . "\n"; // result is 73800000001
 
