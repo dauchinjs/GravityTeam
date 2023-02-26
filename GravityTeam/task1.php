@@ -11,4 +11,4 @@ $endingLon = rad2deg(deg2rad($startingLon) + atan2(sin(deg2rad(90)) * sin($dista
 
 $distance = $radius * acos(sin(deg2rad($startingLat)) * sin(deg2rad($endingLat)) + cos(deg2rad($startingLat)) * cos(deg2rad($endingLat)) * cos(deg2rad($endingLon - $startingLon)));
 
-echo "Distance from original location: $distance km\n";
+echo "Distance from original location: $distance km\n"; //result is 1000km
