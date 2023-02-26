@@ -1,4 +1,4 @@
-<?php //1h15min
+<?php //1h30min
 
 $sum = 0;
 $start = 0;
