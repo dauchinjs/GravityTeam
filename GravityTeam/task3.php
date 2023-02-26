@@ -16,4 +16,4 @@ fclose($file);
 
 $averagePrice = $totalValue / $totalAmount;
 
-echo "Average trade price: " . $averagePrice . " ETH/USDT" . PHP_EOL;
+echo "Average trade price: " . $averagePrice . " ETH/USDT" . PHP_EOL; // result is 1197.456859003 ETH/USDT
